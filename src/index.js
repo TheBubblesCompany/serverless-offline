@@ -525,6 +525,9 @@ class Offline {
             else if (integration === 'lambda-proxy') {
               event = createLambdaProxyContext(request, this.options, this.velocityContextOptions.stageVariables);
             }
+            else if (integration === 'lambda-edge') {
+              event = createLambdaEdgeContext(request, this.options, this.velocityContextOptions.stageVariables);
+            }
 
             event.isOffline = true;
 
