@@ -1,7 +1,8 @@
 {
   "name": "serverless-offline",
-  "version": "3.16.0",
-  "description": "Emulate AWS λ and API Gateway locally when developing your Serverless project",
+  "version": "3.17.0",
+  "description":
+    "Emulate AWS λ and API Gateway locally when developing your Serverless project",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha test",
@@ -85,7 +86,8 @@
     "Stewart Gleadow (https://github.com/sgleadow)",
     "Tuan Minh Huynh (https://github.com/tuanmh)",
     "Utku Turunc (https://github.com/utkuturunc)",
-    "Vasiliy Solovey (https://github.com/miltador)"
+    "Vasiliy Solovey (https://github.com/miltador)",
+    "Christophe Eble (https://github.com/chreble)"
   ],
   "license": "MIT",
   "bugs": {
