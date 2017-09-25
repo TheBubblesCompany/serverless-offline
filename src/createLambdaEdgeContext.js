@@ -21,6 +21,8 @@ module.exports = function createLambdaEdgeContext(
       },
     ];
   });
+  
+  JSON.stringify(request);
 
   return {
     Records: [
