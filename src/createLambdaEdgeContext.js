@@ -22,7 +22,7 @@ module.exports = function createLambdaEdgeContext(
     ];
   });
   
-  console.log(JSON.stringify(request));
+  console.dir(request, request.uri, request.route);
 
   return {
     Records: [
