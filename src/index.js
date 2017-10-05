@@ -802,7 +802,7 @@ class Offline {
 
                 let statusCode = 200;
 
-                if (integration === "lambda") {
+                if (integration === "lambda" || integration === "lambda-edge") {
                   /* RESPONSE TEMPLATE PROCCESSING */
                   // If there is a responseTemplate, we apply it to the result
                   const responseTemplates = chosenResponse.responseTemplates;
