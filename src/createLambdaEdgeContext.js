@@ -32,7 +32,7 @@ module.exports = function createLambdaEdgeContext(
           request: {
             clientIp: request.connection.remoteAddress,
             method: request.method.toUpperCase(),
-            uri: request.route.path,
+            uri: request.url.path,
             headers,
           },
         },
